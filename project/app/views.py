@@ -20,5 +20,5 @@ def my_fillter(request):
     #     {'name':"Arun",'age':24}
     # ]
     # return render(request,'myfillter.html',{'value':data})
-
-    return render(request,'myfillter.html',{'value':15})    
+    
+    return render(request,'myfillter.html',{'value':["Rahul","Age:24","City:Bhopla"]})    

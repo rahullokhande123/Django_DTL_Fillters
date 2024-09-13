@@ -13,9 +13,12 @@ def my_fillter(request):
 
     # data=None
     # return render(request,'myfillter.html',{'value':data})
-    data=[
-        {'name':'Rahul','age':24},
-        {'name':'Soarabh','age':28},
-        {'name':"Arun",'age':24}
-    ]
-    return render(request,'myfillter.html',{'value':data})
+
+    # data=[
+    #     {'name':'Rahul','age':24},
+    #     {'name':'Soarabh','age':28},
+    #     {'name':"Arun",'age':24}
+    # ]
+    # return render(request,'myfillter.html',{'value':data})
+
+    return render(request,'myfillter.html',{'value':15})    
